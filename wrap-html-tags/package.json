@@ -1,0 +1,16 @@
+{
+	"name": "wrap-html-tags",
+	"main": "./lib/wrap-html-tags",
+	"version": "0.1.0",
+	"description": "Envuelve el texto seleccionado con etiquetas HTML",
+	"engines": {
+		"atom": ">=1.0.0 <3.0.0"
+  },
+  "repository": "https://github.com/antxoa/wrap-html-tags",
+  "license": "MIT",
+	"activationCommands": {
+		"atom-text-editor": [
+			"wrap-html-tags:wrap-with-code"
+		]
+	}
+}

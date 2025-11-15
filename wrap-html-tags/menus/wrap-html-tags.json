@@ -1,0 +1,27 @@
+{
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "Wrap HTML Tags",
+					"submenu": [
+						{
+							"label": "Wrap with <code>",
+							"command": "wrap-html-tags:wrap-with-code"
+						}
+					]
+				}
+			]
+		}
+	],
+
+	"context-menu": {
+		"atom-text-editor": [
+			{
+				"label": "Wrap with <code>",
+				"command": "wrap-html-tags:wrap-with-code"
+			}
+		]
+	}
+}
